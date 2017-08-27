@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+rerun ruby em-ws-unity-proxy.rb

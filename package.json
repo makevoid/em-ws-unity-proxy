@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "node-websockify": "^1.0.0"
+  }
+}

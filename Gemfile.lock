@@ -1,0 +1,27 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    em-websocket-client (0.1.2)
+      eventmachine
+      websocket
+    eventmachine (1.2.5)
+    oj (3.3.5)
+    websocket (1.2.4)
+    websocket-eventmachine-base (1.2.0)
+      eventmachine (~> 1.0)
+      websocket (~> 1.0)
+      websocket-native (~> 1.0)
+    websocket-eventmachine-server (1.0.1)
+      websocket-eventmachine-base (~> 1.0)
+    websocket-native (1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  em-websocket-client
+  oj
+  websocket-eventmachine-server
+
+BUNDLED WITH
+   1.14.6
